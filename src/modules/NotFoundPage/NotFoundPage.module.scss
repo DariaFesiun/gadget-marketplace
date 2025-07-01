@@ -1,0 +1,31 @@
+@use '../../assets/styles/variables' as *;
+
+.emptyWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-top: 40px;
+  align-self: center;
+}
+
+.emptyImage {
+  width: 120px;
+
+  @include tablet {
+    width: 160px;
+  }
+
+  @include desktop {
+    width: 200px;
+  }
+}
+
+.empty {
+  font-size: 16px;
+  color: $color-secondary;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 40px;
+  width: 100%;
+}
