@@ -177,25 +177,25 @@
 }
 
 .banner-1 {
-  background-image: url('./img/banner-1.png');
+  background-image: url('/img/banner-1.png');
 
   @media (max-width: $breakpoint-tablet) {
-    background-image: url('./img/banner-phones-mob.png');
+    background-image: url('/img/banner-phones-mob.png');
   }
 }
 
 .banner-phones {
-  background-image: url('./img/banner-phones.png');
+  background-image: url('/img/banner-phones.png');
 
   @media (max-width: $breakpoint-tablet) {
-    background-image: url('./img/banner-phones-mob.png');
+    background-image: url('/img/banner-phones-mob.png');
   }
 }
 
 .banner-accessories {
-  background-image: url('./img/banner-accessories.png');
+  background-image: url('/img/banner-accessories.png');
 
   @media (max-width: $breakpoint-tablet) {
-    background-image: url('./img/banner-phones-mob.png');
+    background-image: url('/img/banner-phones-mob.png');
   }
 }

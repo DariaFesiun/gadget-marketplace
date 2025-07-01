@@ -9,7 +9,17 @@
   background-color: var( --color-background-card);
   transition: transform 0.3s ease;
 
+
   &:hover {
+    border-color: var(--color-text);
+  }
+}
+
+.cardEffect {
+  transition: transform 0.3s ease;
+
+  &:hover {
+    border-color: var(--color-text);
     transform: scale(1.03);
   }
 }
@@ -30,6 +40,7 @@
   object-fit: contain;
   margin-bottom: 8px;
 }
+
 
 .name {
   font-weight: 600;
